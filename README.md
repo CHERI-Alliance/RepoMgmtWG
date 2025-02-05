@@ -17,6 +17,7 @@ If there is a disagreement between working groups, this should be referred to th
 If someone wants to create a repository without an existing working group, please get in contact with this working group.
 
 In all cases, when a repository is created, the initial responsible person or persons should be communicated to this working group.
+When the responsible person changes, this should also be mentioned.
 
 ## License
 
@@ -27,7 +28,7 @@ If this is a completely new project, we prefer permissive licenses like [Apache 
 
 ## Guidelines for repositories
 
-These are not mandates but are some best practices any active repository should have:
+These are not mandates but are some best practices any active repository should consider:
 - Protected main branch.
 - Pull requests for contributions including code review.
 - Commits should be atomic where any part of history is in a buildable and runnable state.
