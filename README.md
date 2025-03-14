@@ -4,6 +4,8 @@ The objective for this group is to set out the rules of engagement for CHERI all
 Besides setting out the rules, this working group should also make sure that each repository has someone who takes responsibility for it.
 To contact this working group, please use [this email](mailto:wg-repo-mgmt@cheri-alliance.org).
 
+Each repository for the CHERI alliance should add a line in the [repository table](repotable.md).
+
 The rules set out here are currently in **DRAFT** form.
 
 ## Creation
@@ -16,13 +18,15 @@ If there is a disagreement between working groups, this should be referred to th
 
 If someone wants to create a repository without an existing working group, please get in contact with this working group.
 
-In all cases, when a repository is created, the initial responsible person or persons should be communicated to this working group.
-When the responsible person changes, this should also be mentioned.
+In all cases, when a repository is created, it should be added to the repository table, which includes the initial responsible working group or person.
+When the responsible working group or person changes, this should also be updated.
+To update the table please open a pull request to this repository.
 
 ## License
 
 When creating a repository these are usually based on existing projects with existing licenses.
-Most projects with reasonable licenses should be fine.
+Projects with well-known open-source licenses should be fine.
+If you have any doubt, please contact this working group.
 
 If this is a completely new project, we prefer permissive licenses like [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
 
@@ -36,4 +40,4 @@ These are not mandates but are some best practices any active repository should 
 
 ## Notes for this repository
 
-This repository should use rebasing for contributions and the initial owner of this repository is [Dr Marno van der Maas](mailto:mvdmaas@lowrisc.org).
+This repository should use rebasing for contributions.
