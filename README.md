@@ -36,7 +36,8 @@ These are not mandates but are some best practices any active repository should 
 - Protected main branch.
 - Pull requests for contributions including code review.
 - Commits should be atomic where any part of history is in a buildable and runnable state.
-- Decide an clearly state whether you prefer merging or rebasing flow.
+- Decide and clearly state whether you prefer merging or rebasing flow.
+- Define how to manage those with write access.
 
 ## Notes for this repository
 
