@@ -28,7 +28,8 @@ When creating a repository these are usually based on existing projects with exi
 Projects with well-known open-source licenses should be fine.
 If you have any doubt, please contact this working group.
 
-If this is a completely new project, we prefer permissive licenses like [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
+If this is a completely new project, we prefer permissive licenses.
+Some examples of those can be found on the [Open Source Initiative popular licenses](https://opensource.org/licenses?categories=popular-strong-community).
 
 ## Guidelines for repositories
 
