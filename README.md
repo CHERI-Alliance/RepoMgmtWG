@@ -7,12 +7,13 @@ To contact this working group, please use [this email](mailto:wg-repo-mgmt@cheri
 ## Creation
 
 If a working group wants a repository they can create one as long as there is no naming clash.
-If there is a naming clash, this should be referred to this working group.
-
+If there is a naming clash, this should be referred to the repository management working group.
 If a repository applies to multiple working groups, they can decide this together.
-If there is a disagreement between working groups, this should be referred to this working group.
+If there is a disagreement between working groups, this should be referred to the repository management working group.
+If someone wants to create a repository without an existing working group, please get in contact with the repository management working group.
 
-If someone wants to create a repository without an existing working group, please get in contact with this working group.
+When creating a new repository that is similar to one that already exists, this should be discussed with the existing working group or person responsible for the already existing repository.
+On a general note, we prefer maintaining branches on an existing repository unless there is a good reason not to.
 
 In all cases, when a repository is created, it should have an initial responsbile working group or person.
 For public repositories please open an issue on this repository.
@@ -37,6 +38,7 @@ These are not mandates but are some best practices any active repository should 
 - Commits should be atomic where any part of history is in a buildable and runnable state.
 - Decide and clearly state whether you prefer merging or rebasing flow.
 - Define how to manage those with write access.
+- Have a meaningful one-line description in the "About" section.
 
 ## Notes for this repository
 
