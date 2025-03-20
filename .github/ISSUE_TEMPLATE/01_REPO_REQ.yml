@@ -1,0 +1,46 @@
+name: Repository creation request
+description: Request a new public repository in the CHERI Alliance organisation.
+title: "[RepoReq] "
+labels: []
+assignees:
+  - marnovandermaas
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Note that this issue is public so do not use this form to request the creation of a private or otherwise sensitive repository.
+  - type: input
+    id: contact
+    attributes:
+      label: Responsible group/person
+      description: Which CHERI Alliance working group or person will initially be responsible for the maintenance of this repository?
+      placeholder: Ex: Repository management working group
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose of the repository
+      description: What is the purpose of the repository you are going to create
+      placeholder: To develop CHERI-support in some project.
+    validations:
+      required: false
+  - type: input
+    id: fork
+    attributes:
+      label: Fork of another repository
+      description: If this is a fork of another repository, what is the URL of that repository?
+      placeholder: Ex: https://github.com/CHERI-Alliance/.github
+    validations:
+      required: false
+  - type: dropdown
+    id: lifetime
+    attributes:
+      label: Lifetime of the repository
+      description: What is the expected lifetime of this repository? Is it short term, for example for adding CHERI support with a clear plan to upstream? Or is it long term, for example a CHERI Alliance repository that will be supported long term?
+      options:
+        - Short term
+        - Long term
+      default: 0
+    validations:
+      required: true
