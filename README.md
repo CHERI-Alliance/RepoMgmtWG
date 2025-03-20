@@ -1,12 +1,8 @@
 # Repository management working group
 
 The objective for this group is to set out the rules of engagement for CHERI alliance repositories.
-Besides setting out the rules, this working group should also make sure that each repository has someone who takes responsibility for it.
+Besides setting out the rules, this working group should also make sure that each repository has someone who takes responsibility for it and it has a purpose.
 To contact this working group, please use [this email](mailto:wg-repo-mgmt@cheri-alliance.org).
-
-Each repository for the CHERI alliance should add a line in the [repository table](repotable.md).
-
-The rules set out here are currently in **DRAFT** form.
 
 ## Creation
 
@@ -18,9 +14,11 @@ If there is a disagreement between working groups, this should be referred to th
 
 If someone wants to create a repository without an existing working group, please get in contact with this working group.
 
-In all cases, when a repository is created, it should be added to the repository table, which includes the initial responsible working group or person.
-When the responsible working group or person changes, this should also be updated.
-To update the table please open a pull request to this repository.
+In all cases, when a repository is created, it should have an initial responsbile working group or person.
+For public repositories please open an issue on this repository.
+In this issue it should also be clear if this is a fork of an existing repository and the expected lifetime of the project.
+Short-term projects can be those where it's a staging ground for upstreaming, while longer-term projects can be those where the CHERI alliance needs to provide longer-term suport.
+For private repositories please send an email to this working group.
 
 ## License
 
