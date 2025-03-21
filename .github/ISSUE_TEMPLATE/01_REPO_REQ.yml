@@ -10,6 +10,14 @@ body:
       value: |
         Note that this issue is public so do not use this form to request the creation of a private or otherwise sensitive repository.
   - type: input
+    id: name
+    attributes:
+      label: Requested name
+      description: What is the exact name that you want the new repository to have? Please make sure there is not namin collision.
+      placeholder: repo-name
+    validations:
+      required: true
+  - type: input
     id: contact
     attributes:
       label: Responsible group/person
