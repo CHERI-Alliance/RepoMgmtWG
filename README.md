@@ -27,8 +27,7 @@ When creating a repository these are usually based on existing projects with exi
 Projects with well-known open-source licenses should be fine.
 If you have any doubt, please contact this working group.
 
-If this is a completely new project, we prefer permissive licenses.
-Some examples of those can be found on the [Open Source Initiative popular licenses](https://opensource.org/licenses?categories=popular-strong-community).
+If this is a completely new project, we prefer [permissive licenses](https://en.wikipedia.org/wiki/Permissive_software_license).
 
 ## Guidelines for repositories
 
