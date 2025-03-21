@@ -14,7 +14,7 @@ body:
     attributes:
       label: Responsible group/person
       description: Which CHERI Alliance working group or person will initially be responsible for the maintenance of this repository?
-      placeholder: Ex: Repository management working group
+      placeholder: Repository management working group
     validations:
       required: true
   - type: textarea
@@ -30,7 +30,7 @@ body:
     attributes:
       label: Fork of another repository
       description: If this is a fork of another repository, what is the URL of that repository?
-      placeholder: Ex: https://github.com/CHERI-Alliance/.github
+      placeholder: "https://github.com/CHERI-Alliance/.github"
     validations:
       required: false
   - type: dropdown
