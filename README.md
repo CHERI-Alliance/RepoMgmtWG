@@ -4,3 +4,7 @@ The objective for this group is to set out the rules of engagement for CHERI all
 Besides setting out the rules, this working group should also make sure that each repository has someone who takes responsibility for it and it has a purpose.
 To contact this working group, please use [this email](mailto:wg-repo-mgmt@cheri-alliance.org).
 
+## Notes for this repository
+
+This repository has a protected branch and uses rebasing for contributions.
+People with write access should be part of the repository management working group.
