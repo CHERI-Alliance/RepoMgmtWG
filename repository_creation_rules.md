@@ -35,5 +35,6 @@ These are not mandates but are some best practices any active repository should 
 - Pull requests for contributions including code review.
 - Commits should be atomic where any part of history is in a buildable and runnable state.
 - Decide and clearly state whether you prefer merging or rebasing flow.
+- Maintain commit history for projects moved from elsewhere.
 - Define how to manage those with write access.
 - Have a meaningful one-line description in the "About" section.
