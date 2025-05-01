@@ -13,7 +13,7 @@ body:
     id: name
     attributes:
       label: Requested name
-      description: What is the exact name that you want the new repository to have? Please make sure there is not namin collision.
+      description: What is the exact name that you want the new repository to have? Please make sure there is no naming collision.
       placeholder: repo-name
     validations:
       required: true
@@ -29,7 +29,7 @@ body:
     id: purpose
     attributes:
       label: Purpose of the repository
-      description: What is the purpose of the repository you are going to create
+      description: What is the purpose of the repository you are going to create?
       placeholder: To develop CHERI-support in some project.
     validations:
       required: false
@@ -37,7 +37,7 @@ body:
     id: fork
     attributes:
       label: Fork of another repository
-      description: If this is a fork of another repository, what is the URL of that repository?
+      description: If this is a fork of another repository, what is the URL of that repository? Otherwise, leave this blank.
       placeholder: "https://github.com/CHERI-Alliance/.github"
     validations:
       required: false
@@ -45,7 +45,7 @@ body:
     id: lifetime
     attributes:
       label: Lifetime of the repository
-      description: What is the expected lifetime of this repository? Is it short term, for example for adding CHERI support with a clear plan to upstream? Or is it long term, for example a CHERI Alliance repository that will be supported long term?
+      description: What is the expected lifetime of this repository? Is it short term, for example for adding CHERI support with a clear plan to upstream? Or is it long term, for example a CHERI Alliance repository that will benefit the community by staying around?
       options:
         - Short term
         - Long term
